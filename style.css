@@ -11,10 +11,18 @@
 .name-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 auto;
 }
 
+
+/* .name-card :nth-child(2) {
+    margin-left: 12px;
+} */
+
 .name-card .card-in {
+    min-width: 560px;
     display: flex;
     flex: column;
 }
